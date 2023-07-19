@@ -1,0 +1,7 @@
+option, select {
+  text-transform: capitalize;
+}
+
+.label {
+  margin-right: 10px;
+}

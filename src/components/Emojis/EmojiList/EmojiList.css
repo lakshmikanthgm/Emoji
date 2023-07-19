@@ -1,0 +1,66 @@
+.loading {
+  text-align: center;
+}
+
+.emoji-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 25px 50px;
+}
+
+.item-container {
+  width: 100%;
+  height: auto;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pagination-sorting {
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media screen and (min-width: 768px) {
+  .item-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .item-container {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item-container {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pagination-sorting {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .pagination-sorting > * {
+    width: 100%;
+  }
+
+  .emoji-container {
+    margin: 25px;
+  }
+}
+
